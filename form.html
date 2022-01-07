@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+  <body>
+    <form action="form.php" method="POST">
+      <p><input type="text" name="title" placeholder="Title"></p>
+      <p><textarea name="description"></textarea></p>
+      <p><input type="submit"></p>
+    </form>
+  </body>
+</html>
+
+
+//Get 방식:url의 parameter를 통해 데이터가 전송됨
+//북마크 용도로 적합(데이터 추가, 수정, 삭제 시 부적합)
+//사용자가 전송한 데이터가 get방식으로 오면 $_GET, post방식으로 오면 $_POST를 사용
